@@ -1,0 +1,715 @@
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+.head{
+  display: block;
+  margin: 20px;
+}
+
+.head img{
+  min-width: 100px;
+  height: 35px;
+  border-radius: 100px;
+}
+
+.head ul{
+ list-style: none;
+}
+
+.head li{
+ display: inline-block;
+ padding-right: 20px;
+ line-height: 35px;
+}
+
+.head li a{
+ text-decoration: none; 
+ color: #000;
+ font-family: Sans-Serif;
+}
+
+.head > ul > li > a:hover{
+  
+    color: rgb(161, 40, 81);
+    transition-delay: .1s;
+    font-weight: 700;
+    font-size: 16px;
+    transition-duration: .1s;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    background-color: pink;
+    padding: 5px;
+   border-radius: 20px;
+   margin-bottom: 5px;
+   }
+
+
+   .hero a{
+    position:absolute;
+    opacity: 1;
+    top:  -10px;
+    text-decoration: none;
+   right:2%;
+   margin-top: 10px;
+   font-family: Sans-Serif, Tahoma;
+   height: 40px;
+   margin-right: 20px;
+   font-size: 30px;
+   color: #000;
+  }
+
+
+@media (min-width: 900px){
+ .hero a{
+    display: none;
+  }
+  .head ul{
+ float:right;
+}
+.head a{
+ position: static; 
+}
+}
+
+@media (max-width: 901px){
+  .head ul{
+    display: none;
+  }
+}
+
+.small h3{
+ text-transform: uppercase; 
+ margin: 15px;
+ font-family: Courier;
+}
+
+                      /* CONTACT STYLING */
+
+.contact_container{
+  width: 100% !important;
+  background-color: pink;
+  min-height: 40vh;
+}
+.contact_container h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.contact_direct_message{
+  float: right;
+  margin-right:50px;
+  line-height: 30px;
+}
+ul{
+list-style: none;
+}
+.contact_direct_message ul li{
+ text-decoration: none;
+ text-transform: capitalize;
+ font-size: 20px;
+}
+
+.contact_direct_message a{
+  text-decoration: none;
+  padding: 3px;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  margin: 20px;
+  border-radius: 10px;
+}
+.contact_social {
+  margin: 50px;
+  line-height: 50px;
+}
+.contact_social a{
+  text-decoration: none;
+  color: #777;
+}
+@media screen and (min-width: 900px){
+.for_big_screen{
+  margin:0 20%;
+}
+}
+.message{
+  width: 100%;
+}
+.message_container{
+
+  text-align: center;
+  justify-content:center ;
+  line-height: 50px;
+  background-color: #444;
+  box-shadow: 2px 2px yellow;
+}
+.message_container h3{
+  color: #000;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-shadow: 1px 1px #00ff33;
+  font-family: sans-serif;
+}
+.message_container input{
+  width: 70%;
+  height: 30px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.message_container textarea{
+  width: 70%;
+  height: 100px;
+  border-radius:10px ;
+  font-size: 17px;
+}
+.message_container button{
+  padding: 5px;
+  background-color: transparent;
+  width: 70px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+  border-radius: 10px;
+}
+.working_hours{
+  width: 100%;
+  background-color: #e6247e;
+}
+.hours_container{
+  text-align: center;
+  justify-content: center;
+  margin:0 10%;
+}
+.hours_container h3{
+  text-transform: uppercase;
+  font-size: larger;
+}
+.hours p{
+  font-size: 20px;
+  color:rgb(187, 241, 59) ;
+  text-transform: capitalize;
+  text-shadow: 1px 2px #000;
+}
+.newsletter{
+  width: 100%;
+}
+.order{
+  float: right;
+  margin-right: 11%;
+}
+.newsletter_container {
+  text-align: center;
+  justify-content: center;
+}
+.order label{
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #555;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.newsletter button{
+  padding: 2px;
+  background-color: transparent;
+  width: 100px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #000;
+  border-radius: 10px;
+}
+.newsletter_container form{
+  display: block;
+}
+.newsletter_container form label{
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.newsletter_container form input{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: pink;
+  box-shadow: 2px 2px lightsalmon;
+}
+
+  /* RESERVATIO STYLE */
+
+  .reservation{
+    width: 100%;
+    height: fit-content;
+  }
+  .reservation h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: #dcf159;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 1px 1px #000;
+  }
+.reservation_container{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+.reservation_container h4{
+  text-align: center;
+    font-family: sans-serif;
+    color: #d32774;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-shadow: 1px 1px rgb(11, 139, 81);
+}
+.reservation form{
+  text-align: center;
+  justify-content: center;
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  text-shadow: 1px 2px purple;
+}
+.reservation label{
+  color: rgb(213, 239, 192);
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.reservation .short input{
+  width: 140px;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 27px;
+  background-color: pink;
+}
+
+.reservation .long input{
+  font-family: sans-serif;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  height: 27px;
+  background-color: pink;
+}
+.reservation p{
+  color: white;
+  text-shadow: 1px 1px grey;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+.reservation textarea{
+  outline: none;
+  width: 250px;
+  height: 120px;
+  background-color: rgb(104, 200, 93);
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 17px;
+  border-radius: 20px;
+}
+.reservation button{
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  background-color: #666;
+  width: 130px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+
+
+
+footer{
+
+ justify-content:space-between; display:inline-flex; text-align:center; 
+ background-color: #00ff33;
+ width:100%; height: fit-content;}
+.foot-logo img{
+  margin-left:65%; margin-top:65%; width:70px; height:40px; border-radius:22px;
+}
+.foot-links ul{
+  list-style:none; margin-top: 50px; display: flex;
+}
+.foot-links li a{
+ text-decoration:none; color:#000; line-height: 25px; padding-left:20px ;
+}
+@media (max-width:700px){.foot-links ul{display: block; margin: 20px; line-height:20px;}}
+section{
+  background-color:#fff;
+  text-align:center;
+   color:#444;
+   text-transform:capitalize; 
+   font-family: Courser;
+    font-size:15px;
+  }
+.foot-social{
+  margin-top: 25px;
+}
+.foot-social a{
+ padding: 15px; 
+ color: #555;
+ font-size: 25px;
+}
+@media (max-width:900px) {
+  .foot-social a{
+ padding: 2px;
+ font-size: 20px;
+}
+}
+.foot-social h3{
+ font-size: 15px;
+ color: #555;
+}
+
+/* ABOUT STYLING */
+
+.about_friday{
+  background-image: url(images/159205258_206595131214624_1832525568783255851_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  min-height: 50vh;
+}
+.about_friday .about_container{
+  text-align: center;
+}
+.about_friday .about_container h2{
+  margin-left: 20%;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+.about_friday .about_container article{
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: 700;
+  color: #000;
+  text-shadow: 1px 2px #fff;
+  line-height: 37px;
+}
+
+.menu_container{
+  text-align: center;
+  justify-content: center;
+}
+.menu_container h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+.friday_menu{
+  margin:0 20%;
+}
+.friday_menu img{
+  width: 310px;
+  height: auto;
+  box-shadow: 3px 3px rgb(199, 219, 18);
+}
+.friday_menu button{
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.friday_menu button a{
+  padding: 5px;
+  background-color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.friday_menu button:hover{
+       background-color:transparent;
+       color: #000;
+       font-family: sans-serif;
+       text-shadow: #fff;
+       font-weight: 900;
+}
+
+
+
+
+  
+
+
+    /* ORDER STYLING */
+
+
+    .menu_pdf{
+      line-height: 80px;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .menu_pdf button{
+      text-decoration: none;
+      padding: 10px;
+      cursor: pointer;
+      border: 2px solid #000;
+      background-color: transparent;
+      color: #777;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      border-radius: 10px;
+    }
+    .menu_pdf button:hover{
+      background-color: #555;
+      border-radius: 0;
+      color: pink;
+      border: none;
+    }
+    .place_order{
+      margin: 20px 20%;
+      background-color: rgb(194, 214, 237);
+      text-align: center;
+      justify-content: center;
+      padding: 10px;
+      border-top-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 0 chartreuse;
+      transition: .5s;
+      transition-duration: .5s;
+    }
+    .place_order:hover{
+      box-shadow: -1px -2px 2px chartreuse;
+      background-color: rgb(101, 159, 224);
+    }
+    .place_order form{
+      text-align: center;
+      justify-content: center; 
+     width: 100%;
+     height: fit-content;
+    }
+    .place_order h3{
+      text-transform: capitalize;
+      font-family: sans-serif;
+      font-size: larger;
+      font-weight: 700;
+    }
+    .place_order h5{
+      text-transform: capitalize;
+      font-family: sans-serif;
+      font-size: small;
+      font-weight: 700;
+    }
+    .place_order form{
+      display: block;
+      line-height: 50px;
+    }
+    .place_order label{
+      text-transform: capitalize;
+      font-family: sans-serif;
+      font-weight: 700;
+    }
+    .placing_order{
+      width: 100%;
+      
+    }
+    .place_order form button{
+      text-decoration: none;
+  padding: 10px;
+  border-bottom: none;
+  border-right: none;
+  background-color: transparent;
+  color: #777;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+  color: pink;
+  text-shadow: 1px 2px #666;
+    }
+    .place_order form button:hover{
+      color: white;
+      border-top: none;
+      border-left: none;
+      border-bottom: 2px solid #000;
+      border-right: 2px solid #000;
+    }
+.completed_menu{
+  width: 100%;
+}
+   .complete_menu_container {
+    text-align: center;
+    justify-content: center;
+   }
+.completed_menu h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-weight: 10;
+  letter-spacing: 2px;
+}
+
+.order_now{
+  margin: 20px;
+  text-align: center;
+  width: 100%;
+}
+.order_now a{
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid #000;
+  background-color: transparent;
+  color: #777;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.order_now span{
+  margin: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+     
+
+    @media (min-width:700px){
+      .menu_float{
+        float: right;
+      }
+      .complete_menu_container {
+       text-align: left;
+       margin: 10px 10%;
+       }
+       .menu_float img, .menu_non_float img{
+        width: 400px;
+        opacity: 7;
+       }
+    }
+
+
+    /* REVIEW */
+
+    .review_container{
+      width: 100%;
+      height: 90vh;
+      background-color: pink;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .testimonial{
+      width: 90%;
+      max-width: 800px;
+      margin: auto;
+    }
+    .testimonial-text{
+      background: #ff0058;
+      color: #fff;
+      height: 350px;
+      position: relative;
+      box-shadow: 0 15x 20px rgba(0, 0, 0, 0.2);
+    }
+    .user-text{
+      width: 80%;
+      text-align: center;
+      line-height: 30px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      display: none;
+    }
+    .user-text fas{
+      font-size: 30px;
+      margin-bottom: 50px;
+      margin-top: 20px;
+    }
+    .user-text span{
+      display: block;
+      font-size: 13px;
+      margin-top: 70px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    .testimonial_pic{
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .user-pic{
+      width: 70px;
+      height: 70px;
+      padding: 5px;
+      border-radius: 50%;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .user-text.active-text{
+      display: block;
+      animation:  moveup 0.5s linear forwards;
+    }
+    .user-pic.active-pic{
+      width: 100px;
+      border: 3px solid #ff0058;
+    }
+    @keyframes moveup {
+      0% {
+        margin-top: 25px;
+      }
+      100%{
+        margin-top: 0px;
+      }
+    }
+
+    .maps{
+      width: 100%;
+      display: block;
+      text-align: center;
+      justify-content: center;
+      background-color: rgb(206, 226, 28)
+    }
+    .maps-container{
+      height: 70vh;
+      text-align: center;
+      justify-content: center;
+    }
+    .maps iframe{
+      width: 70%;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 1px 2px 3px grey;
+    }
+    .maps h3{
+      font-family: sans-serif;
+      color: #444;
+      text-shadow: 2px 2px #fff;
+    }
+    .maps a{
+      text-decoration: none;
+      font-family: cursive;
+      color: grey;
+    }
